@@ -6,11 +6,50 @@ and open the template in the editor.
 -->
 <html>
     <head>
-        <title>TODO supply a title</title>
+        <title>Profilo</title>
         <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="Profilo utente Nerdbook">
+        <meta name="author" content="Giovanni Antonio Moreddu">
     </head>
     <body>
-        <div>TODO write content</div>
+        <a href="descrizione.html">Descrizione</a>
+        <a href="login.html">Login</a>
+        
+        <h1>Il mio profilo</h1>
+        <h3>Inserisci i tuoi dati personali</h3>
+        <form>
+            <label for="Nome"> Nome</label>
+            <input type="text" name="Nome"
+         id="Nome" value="inserisci il tuo nome" />
+            <br>
+            <label for="Cognome">Cognome</label>
+            <input type="text" name="Cognome” "
+         id="Cognome" value="inserisci il tuo cognome" />
+            <br>
+            <label for="immagine">Immagine del profilo</label>
+            <input type="url" name="immagine" />
+            <br>
+            <label for="lungo">Frase di presentazione</label>
+            <textarea rows="4" cols="20"
+                      name="lungo" id="lungo">
+                Presentati
+            </textarea>   
+            <br>
+            <label for="data">Data di nascita</label>
+            <input type="date" name="data” "
+         id="data" />
+            <br>
+            
+            <label for="pswd">Inserisci la password</label>
+            <input type="password" name="pswd” "
+         id="pswd" value="oscurato" />
+            <br>
+            
+            <label for="pswd1">Conferma password</label>
+            <input type="password" name="pswd1” "
+         id="pswd1" value="oscurato" />
+        </form>
+        <input type="submit" value="Conferma dati" />
+    
     </body>
 </html>
