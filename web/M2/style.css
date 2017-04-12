@@ -1,0 +1,204 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 29-mar-2017, 10.22.18
+    Author     : giovannimoreddu
+*/
+
+body {
+    background-color: #0033ff;
+    font-family: sans-serif;
+    color: black;
+
+}
+
+
+
+nav {
+    background-color: #99ccff;
+    
+    position: fixed;
+    height: 70px;
+    width: 81%;
+    top: 0px;
+    left: 208px;
+    z-index: 10;
+    text-align: right;
+
+}
+
+ul.menu{
+    
+   height:50px; 
+    width: 850px;
+    font-family: sans-serif;
+    font-size: 15px;
+    padding: 4px;
+    margin: 0;
+    list-style: none;
+    margin-right: 0;
+    position: absolute;
+    text-decoration: none;
+    
+}
+
+ul.menu li {
+    background-color: white;
+    display: block;
+    float: left;                            /*posiziono ogni elemento su riga */
+    width: 170px;
+    height: 30px;
+    margin: 5px;
+    border: 2px solid  #607aeb;
+    text-align: center;
+   
+ outline: none;
+ cursor: pointer;
+ text-decoration: none;
+ padding: 10px 10px;
+  font: bold 22px Arial, Helvetica, sans-serif;
+
+}
+
+
+
+aside{
+    background-color: white;
+    position: fixed;
+    height: 800px;
+    width: 200px;
+    
+    
+}
+
+sidebar{
+    background-color: #66ccff;
+    position: fixed;
+    height: 70px;
+    width: 200px;
+    top: 0px;
+    text-align: center;
+    
+
+}
+
+article {
+    background-color: #cccccc;
+    position: relative;
+    left: 215px;
+    top: 70px;
+    width: 80%;
+    height: auto;
+}
+
+section{
+    background-color: white;
+    
+}
+
+#login{
+    
+    text-align: center;
+}
+
+#Login{
+    border-style: groove;
+    width: 30%;
+    height: 200px;
+    position: absolute;
+    top: 25%;
+    left: 35%;
+    text-align: center;
+    text-decoration: #0000ff;
+   margin: 0 auto;
+    
+}
+
+button{
+    background-color: #0000ff;
+    color: white;
+    border: 2px solid #FCA800;
+    position: relative;
+    width: 150px;
+    height: 20px;
+    top: 5px;
+}
+
+footer{
+    border: 2px solid black;
+    background-color: #ffffff;
+    position: fixed;
+    height: 35px;
+    width: 100%;
+    bottom: 0;
+    clear: both;
+    font-size: 13px;
+    
+    
+}
+
+
+
+
+label, input, textarea {
+display: inline-block;
+width: 130px;
+margin: 5px;
+}
+label {
+color: #777;
+font-size: 14px;
+}
+form {
+width: 400px;
+margin: 0 auto; /* centra il form nella pagina */
+padding: 10px 0;
+border: 3px;
+}
+
+#confirm{
+    background-color: #0099ff;
+    text-align: center;
+    padding: 10px 0;
+   display: block;
+margin: 0 auto;
+font-weight: bold;
+text-decoration: #0033ff;
+
+}
+
+
+
+@media only screen and (min-width: 1280px) {
+    
+    
+p
+{
+    color: #000099;
+} }
+
+@media only screen and (min-width: 480px)and (max-width: 1280px)
+{   
+    
+    
+p {
+    color: #000099;
+    }
+}
+
+
+@media only screen and (max-width: 480px)
+{
+  
+     aside{
+        display: none;
+    } 
+    
+p {
+        color: #003366;
+    }
+}
+
