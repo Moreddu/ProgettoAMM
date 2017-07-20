@@ -12,11 +12,22 @@ and open the template in the editor.
         <meta name="author" content="Giovanni Antonio Moreddu">
     </head>
     <body>
-        <a href="descrizione.html">Descrizione</a>
+        <div class="menu">
+        <a href="profilo.html">Il mio Profilo</a>
+        <a href="bacheca.html">Bacheca</a>
         <a href="login.html">Login</a>
+        <a href="descrizione.html">Descrizione</a>
+        </div>
+        <header>
+        <h1>Nerdbook</h1>
+        </header>
+
+        <div class="content">
+        <div class="profilo">
+        <h2>Il mio profilo</h2>
         
-        <h1>Il mio profilo</h1>
         <h3>Inserisci i tuoi dati personali</h3>
+        
         <form>
             <label for="Nome"> Nome</label>
             <input type="text" name="Nome"
@@ -26,8 +37,8 @@ and open the template in the editor.
             <input type="text" name="Cognome” "
          id="Cognome"  />
             <br>
-            <label for="immagine">Immagine del profilo</label>
-            <input type="url" name="immagine" />
+            <label for="immagine" >Immagine del profilo</label>
+            <input type="url" id="immagine" name="immagine" />
             <br>
             <label for="lungo">Frase di presentazione</label>
             <textarea rows="4" cols="20"
@@ -36,7 +47,7 @@ and open the template in the editor.
             </textarea>   
             <br>
             <label for="data">Data di nascita</label>
-            <input type="date" name="data” "
+            <input type="text" name="data” "
          id="data" />
             <br>
             
@@ -48,8 +59,10 @@ and open the template in the editor.
             <label for="pswd1">Conferma password</label>
             <input type="password" name="pswd1” "
          id="pswd1"  />
+            <input type="submit" value="Conferma dati" />
         </form>
-        <input type="submit" value="Conferma dati" />
+        </div>
+        </div>
     
     </body>
 </html>
